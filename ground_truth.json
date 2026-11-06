@@ -1,0 +1,398 @@
+{
+  "01_bullseye_desert_low.jpg": {
+    "background": "desert",
+    "conditions": {},
+    "distractors": [],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          933.0,
+          282.0
+        ],
+        "bbox": [
+          692.6985823682987,
+          41.69858236829876,
+          1173.3014176317013,
+          522.3014176317013
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "02_bullseye_desert_high.jpg": {
+    "background": "desert",
+    "conditions": {},
+    "distractors": [],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          772.0,
+          340.0
+        ],
+        "bbox": [
+          697.775931521061,
+          265.775931521061,
+          846.224068478939,
+          414.22406847893905
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "03_bullseye_grass.jpg": {
+    "background": "grass",
+    "conditions": {},
+    "distractors": [
+      "bushes"
+    ],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          475.0068054199219,
+          476.85064697265625
+        ],
+        "bbox": [
+          306.10132637311085,
+          303.10132637311085,
+          666.8986736268891,
+          658.6986736268891
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "04_bullseye_tilted.jpg": {
+    "background": "asphalt",
+    "conditions": {},
+    "distractors": [],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          977.154541015625,
+          476.5200500488281
+        ],
+        "bbox": [
+          790.622326935016,
+          256.622326935016,
+          1265.877673064984,
+          710.877673064984
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "05_bullseye_red_car.jpg": {
+    "background": "desert",
+    "conditions": {},
+    "distractors": [
+      "red_car"
+    ],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          311.48291015625,
+          398.1886901855469
+        ],
+        "bbox": [
+          167.94380040858613,
+          258.9438004085861,
+          445.0561995914139,
+          538.0561995914138
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "06_bullseye_red_disc.jpg": {
+    "background": "asphalt",
+    "conditions": {},
+    "distractors": [
+      "red_circle"
+    ],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          757.0,
+          430.0
+        ],
+        "bbox": [
+          640.6617083391958,
+          313.6617083391958,
+          873.3382916608042,
+          546.3382916608042
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "07_bullseye_dim.jpg": {
+    "background": "desert",
+    "conditions": {
+      "brightness": 0.55
+    },
+    "distractors": [],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          671.8595581054688,
+          428.4360656738281
+        ],
+        "bbox": [
+          510.3373182083383,
+          283.3373182083382,
+          815.6626817916617,
+          583.8626817916618
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "08_bullseye_bright.jpg": {
+    "background": "desert",
+    "conditions": {
+      "brightness": 1.35
+    },
+    "distractors": [],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          1103.0,
+          172.00001525878906
+        ],
+        "bbox": [
+          941.312095185069,
+          10.31209518506904,
+          1264.687904814931,
+          333.687904814931
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "09_bullseye_shadow.jpg": {
+    "background": "grass",
+    "conditions": {
+      "shadow": true
+    },
+    "distractors": [
+      "bushes"
+    ],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          535.6246337890625,
+          291.0045166015625
+        ],
+        "bbox": [
+          349.3865527367168,
+          95.5865527367168,
+          735.6134472632832,
+          484.6134472632832
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "10_bullseye_motion_blur.jpg": {
+    "background": "desert",
+    "conditions": {
+      "blur": 15
+    },
+    "distractors": [],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          380.8663024902344,
+          249.1586456298828
+        ],
+        "bbox": [
+          221.586958429092,
+          93.58695842909202,
+          530.413041570908,
+          400.01304157090806
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "11_bullseye_noisy.jpg": {
+    "background": "asphalt",
+    "conditions": {
+      "noise": 18,
+      "jpeg": 55
+    },
+    "distractors": [],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          455.14971923828125,
+          109.36971282958984
+        ],
+        "bbox": [
+          364.7621024891793,
+          17.162102489179297,
+          551.2378975108206,
+          205.23789751082072
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "12_bullseye_edge.jpg": {
+    "background": "desert",
+    "conditions": {},
+    "distractors": [],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          1194.0,
+          360.0
+        ],
+        "bbox": [
+          1028.4372300401037,
+          194.43723004010369,
+          1359.5627699598963,
+          525.5627699598963
+        ],
+        "partly_out_of_frame": true
+      }
+    ]
+  },
+  "13_greenx_desert.jpg": {
+    "background": "desert",
+    "conditions": {},
+    "distractors": [
+      "gcp"
+    ],
+    "targets": [
+      {
+        "label": "green_x",
+        "center": [
+          1098.452880859375,
+          520.6996459960938
+        ],
+        "bbox": [
+          918.0480944231917,
+          340.54809442319174,
+          1268.4519055768083,
+          693.9519055768083
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "14_greenx_grass.jpg": {
+    "background": "grass",
+    "conditions": {},
+    "distractors": [
+      "bushes"
+    ],
+    "targets": [
+      {
+        "label": "green_x",
+        "center": [
+          257.02374267578125,
+          321.213623046875
+        ],
+        "bbox": [
+          105.29527184562977,
+          166.29527184562974,
+          428.7047281543703,
+          484.9047281543703
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "15_greenx_small.jpg": {
+    "background": "asphalt",
+    "conditions": {},
+    "distractors": [
+      "gcp"
+    ],
+    "targets": [
+      {
+        "label": "green_x",
+        "center": [
+          938.0,
+          335.0
+        ],
+        "bbox": [
+          876.2556054725756,
+          273.25560547257555,
+          999.7443945274244,
+          396.74439452742445
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "16_both_targets.jpg": {
+    "background": "desert",
+    "conditions": {},
+    "distractors": [
+      "gcp",
+      "red_car"
+    ],
+    "targets": [
+      {
+        "label": "bullseye",
+        "center": [
+          253.9715576171875,
+          401.8969421386719
+        ],
+        "bbox": [
+          111.72128112640866,
+          261.3212811264086,
+          379.2787188735914,
+          533.2787188735913
+        ],
+        "partly_out_of_frame": false
+      },
+      {
+        "label": "green_x",
+        "center": [
+          777.7830200195312,
+          586.76904296875
+        ],
+        "bbox": [
+          623.8793605642859,
+          445.77936056428587,
+          912.2206394357141,
+          730.1606394357142
+        ],
+        "partly_out_of_frame": false
+      }
+    ]
+  },
+  "17_no_target_desert.jpg": {
+    "background": "desert",
+    "conditions": {},
+    "distractors": [
+      "red_car",
+      "gcp"
+    ],
+    "targets": []
+  },
+  "18_no_target_grass.jpg": {
+    "background": "grass",
+    "conditions": {},
+    "distractors": [
+      "bushes",
+      "red_circle"
+    ],
+    "targets": []
+  }
+}

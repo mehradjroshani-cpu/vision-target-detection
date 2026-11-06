@@ -1,0 +1,19 @@
+image,expected,detected,labels,centers_px,offset_from_center_px,center_error_px,false_pos,missed,time_ms,result
+01_bullseye_desert_low.jpg,1,1,bullseye,"(933.0,282.0)","(293.0,-78.0)",0.0,0,0,41.0,PASS
+02_bullseye_desert_high.jpg,1,1,bullseye,"(772.0,340.0)","(132.0,-20.0)",0.0,0,0,33.0,PASS
+03_bullseye_grass.jpg,1,1,bullseye,"(475.1,476.9)","(-164.9,116.9)",0.1,0,0,19.4,PASS
+04_bullseye_tilted.jpg,1,1,bullseye,"(977.7,476.7)","(337.7,116.7)",0.5,0,0,19.1,PASS
+05_bullseye_red_car.jpg,1,1,bullseye,"(311.4,398.2)","(-328.6,38.2)",0.1,0,0,20.8,PASS
+06_bullseye_red_disc.jpg,1,1,bullseye,"(757.0,430.0)","(117.0,70.0)",0.0,0,0,21.2,PASS
+07_bullseye_dim.jpg,1,1,bullseye,"(671.9,428.5)","(31.9,68.5)",0.1,0,0,20.8,PASS
+08_bullseye_bright.jpg,1,1,bullseye,"(1103.0,172.0)","(463.0,-188.0)",0.0,0,0,22.4,PASS
+09_bullseye_shadow.jpg,1,1,bullseye,"(535.6,291.0)","(-104.4,-69.0)",0.1,0,0,19.0,PASS
+10_bullseye_motion_blur.jpg,1,1,bullseye,"(380.9,249.1)","(-259.1,-110.9)",0.1,0,0,20.4,PASS
+11_bullseye_noisy.jpg,1,1,bullseye,"(455.2,109.3)","(-184.8,-250.7)",0.1,0,0,20.4,PASS
+12_bullseye_edge.jpg,1,1,bullseye,"(1194.0,360.0)","(554.0,-0.0)",0.0,0,0,20.2,PASS
+13_greenx_desert.jpg,1,1,green_x,"(1097.0,517.4)","(457.0,157.4)",3.6,0,0,17.4,PASS
+14_greenx_grass.jpg,1,1,green_x,"(260.9,325.5)","(-379.1,-34.5)",5.8,0,0,15.6,PASS
+15_greenx_small.jpg,1,1,green_x,"(938.0,335.0)","(298.0,-25.0)",0.0,0,0,15.5,PASS
+16_both_targets.jpg,2,2,bullseye;green_x,"(253.9,401.8);(773.0,588.0)","(-386.1,41.8);(133.0,228.0)","0.1, 4.9",0,0,24.9,PASS
+17_no_target_desert.jpg,0,0,none,-,-,-,0,0,15.7,PASS
+18_no_target_grass.jpg,0,0,none,-,-,-,0,0,14.8,PASS

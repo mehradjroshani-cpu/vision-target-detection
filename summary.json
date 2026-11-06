@@ -1,0 +1,13 @@
+{
+  "images": 18,
+  "images_passed": 18,
+  "targets_in_ground_truth": 17,
+  "targets_found": 17,
+  "missed": 0,
+  "false_positives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "center_error_px_mean": 0.92,
+  "center_error_px_max": 5.79,
+  "avg_time_ms": 21.2
+}
